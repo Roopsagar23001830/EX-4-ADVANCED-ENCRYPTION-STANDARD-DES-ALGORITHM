@@ -46,6 +46,6 @@ return 0;
 ```
 ## OUTPUT:
 
-![Screenshot 2024-10-06 230347](https://github.com/user-attachments/assets/eb406568-3af8-479c-b81b-3ffe4fbbe278)
+![Screenshot 2024-10-06 222115](https://github.com/user-attachments/assets/70a61f39-c5ff-4232-8440-678437855c14)
 
 ## RESULT: 
