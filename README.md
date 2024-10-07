@@ -18,34 +18,29 @@ REG.NO : 212223040175
 ```
 #include <stdio.h>
 #include <string.h>
-
-
-  void xor_encrypt_decrypt(char *input, char *key) {
+void xor_encrypt_decrypt(char *input, char *key) {
 int input_len = strlen(input);
 int key_len = strlen(key);
-
 for (int i = 0; i < input_len; i++) {
-    input[i] = input[i] ^ key[i % key_len]; // XOR encryption
+input[i] = input[i] ^ key[i % key_len]; // XOR encryption
 }
 }
-
 int main() {
-char url[] = "https://lms2.cse.saveetha.in";
+printf("\n\n***** ADVANCED-ENCRYPTION STANDARD-DES-ALGORITHM *****");
+printf("\n\n");
+char url[] = "RoopSagarsl";
 char key[] = "secretkey"; // Simple key for XOR encryption
-
-printf("Original URL: %s\n", url);
-
+printf("Original Text: %s\n", url);
 xor_encrypt_decrypt(url, key);
-printf("Encrypted URL: %s\n", url);
-
+printf("Encrypted Text: %s\n", url);
 xor_encrypt_decrypt(url, key);
 printf("Decrypted URL: %s\n", url);
-
 return 0;
 }
 ```
 ## OUTPUT:
 
-![Screenshot 2024-10-06 222115](https://github.com/user-attachments/assets/70a61f39-c5ff-4232-8440-678437855c14)
+![Screenshot 2024-10-07 111337](https://github.com/user-attachments/assets/0234063f-c840-41e6-bb1b-8e8698fb04d9)
+
 
 ## RESULT: 
